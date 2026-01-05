@@ -2,6 +2,8 @@
 
 A Tableau dashboard visualization project analyzing health outcomes and prevention measures across United States counties and states.
 
+**Course Project**: This project was completed as part of the VAD (Visual Analytics and Dashboarding) course at Syracuse University under Professor Raj Diwan.
+
 ## Overview
 
 This dashboard provides interactive visualizations of health data for counties across the United States, allowing users to explore various health outcomes, prevention measures, and demographic information.
