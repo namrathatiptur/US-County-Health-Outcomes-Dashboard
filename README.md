@@ -74,6 +74,46 @@ The dataset includes the following fields:
 
 - `Heath_Dashboard_Project.twbx`: Packaged Tableau workbook containing the dashboard, data extracts, and associated resources
 
+## Tableau Features Used
+
+This dashboard utilizes a comprehensive set of Tableau features to create an interactive and dynamic visualization:
+
+### Core Components
+- **8 Dashboards**: Multiple dashboard layouts for different views and analyses
+- **34 Worksheets**: Various chart types and visualizations
+- **Parameters**: Interactive parameter controls for dynamic measure selection
+  - List-type parameters with multiple health measure options
+  - Parameters for filtering and customizing views
+- **Filters**: 46+ filters for data refinement and user interaction
+- **Groups**: 380+ data groups for organizing and categorizing data
+
+### Advanced Calculations
+- **124 Calculated Fields**: Custom calculations for data transformation and analysis
+- **Level of Detail (LOD) Expressions**: 
+  - FIXED LOD expressions for aggregations at specific dimensions
+  - Used for computing averages and percentiles by measure
+- **Statistical Functions**: 
+  - PERCENTILE calculations (25th, 75th percentiles)
+  - AVG (Average) aggregations
+  - RANK_UNIQUE for ranking counties
+  - COUNTD (Count Distinct) for unique measures
+- **Conditional Logic**: IF/THEN/END statements for dynamic filtering
+- **String Functions**: CONTAINS for text matching and string concatenation
+- **Parameter Integration**: Calculations that reference parameters for dynamic behavior
+
+### Interactive Features
+- **Dashboard Actions**: 10+ actions for interactivity between worksheets
+- **Quick Filters**: Interactive filter controls on dashboards
+- **Parameter Controls**: User-selectable parameters for measure selection
+
+### Geographic Visualization
+- **Maps**: Extensive use of geographic visualizations (592+ map references)
+- **Geographic Roles**: State, county, and FIPS code mappings for map-based analysis
+
+### Data Connections
+- **Multiple Data Sources**: Multiple connections to the same CSV dataset for different visualization needs
+- **Embedded Data Extracts**: Packaged data for offline use
+
 ## Tableau Version
 
 - Created with Tableau version 2025.2.4 (18.1)
