@@ -1,6 +1,6 @@
-# Heath Dashboard Project
+# US County Health Outcomes Dashboard
 
-A Tableau dashboard visualization project analyzing health outcomes and prevention measures across United States counties and states.
+A comprehensive Tableau dashboard visualization project analyzing health outcomes and prevention measures across United States counties and states. This interactive dashboard enables exploration of 29+ health metrics through dynamic parameters, maps, and advanced analytics.
 
 **Course Project**: This project was completed as part of the VAD (Visual Analytics and Dashboarding) course at Syracuse University under Professor Raj Diwan.
 
